@@ -16,8 +16,6 @@
   </style>
  </head>
  <body class="bg-white text-gray-800">
-  <header class="bg-gray-100 py-6 flex justify-center">
-   <img alt="Logo Universidad Nacional del Sur en azul con texto circular" class="h-20 w-20 object-contain" height="80" src="https://g3w.uns.edu.ar/guarani3w/_comp/uns01/img/logo-transparente_UNS.png" width="80"/>
   </header>
   <main class="max-w-5xl mx-auto px-6 mt-8">
    <h1 class="text-blue-600 font-semibold text-lg mb-3 border-b border-gray-300 pb-1">
@@ -26,19 +24,26 @@
    <div class="bg-blue-100 text-blue-900 font-semibold rounded px-4 py-3 mb-6" role="alert">
     Certificado a verificar: e6d59d38e924c2a2dbf4e8690a44b766b9597806
    </div>
+<form class="mb-6">
+    <!-- BOTÓN VERIFICAR - ARRIBA DERECHA -->
+    <div class="mb-4 flex justify-end">
+        <button class="bg-blue-400 hover:bg-blue-500 text-white text-sm font-normal rounded px-4 py-1" type="button" onclick="window.location.href='resultado.html'">
+            Verificar
+        </button>
+    </div>
    <form class="flex flex-wrap items-center gap-4 mb-6">
     <label class="text-xs text-gray-700 w-full sm:w-auto mb-1 sm:mb-0" for="captcha">
      Transcriba el texto de la imagen
     </label>
     <img alt="Imagen captcha con texto distorsionado y líneas verdes" class="h-10 w-40 object-cover border border-gray-300 rounded" height="40" src="https://g3w.uns.edu.ar/guarani3w/captcha" width="160"/>
-    <a class="text-xs text-blue-600 font-semibold hover:underline" href="#">
-     Nueva imagen
-    </a>
-    <input class="border border-gray-300 rounded px-3 py-1 text-sm w-44" id="captcha" name="captcha" type="text"/>
-<button class="bg-blue-400 hover:bg-blue-500 text-white text-sm font-normal rounded px-4 py-1" type="button" onclick="window.location.href='resultado.html'">
-    Verificar
-</button>
-   </form>
+
+    <div>
+        <a class="text-xs text-blue-600 font-semibold hover:underline block mb-2" href="#" style="font-size: 10px;">
+            Nueva imagen
+        </a>
+        <input class="border border-gray-300 rounded px-3 py-1 text-sm w-44" id="captcha" name="captcha" type="text"/>
+    </div>
+	   </form>
    <section class="bg-gray-100 rounded border border-gray-300 p-4 max-w-4xl mx-auto">
     <h2 class="font-semibold text-gray-600 mb-3 text-center">
      Datos de la Certificación
