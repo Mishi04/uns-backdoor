@@ -1,0 +1,103 @@
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Verificación en Línea de Certificaciones
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-gray-800">
+  <header class="bg-gray-100 py-6 flex justify-center">
+   <img alt="Logo Universidad Nacional del Sur en azul con texto circular" class="h-20 w-20 object-contain" height="80" src="https://g3w.uns.edu.ar/guarani3w/_comp/uns01/img/logo-transparente_UNS.png" width="80"/>
+  </header>
+  <main class="max-w-5xl mx-auto px-6 mt-8">
+   <h1 class="text-blue-600 font-semibold text-lg mb-3 border-b border-gray-300 pb-1">
+    Verificación en Línea de Certificaciones
+   </h1>
+   <div class="bg-blue-100 text-blue-900 font-semibold rounded px-4 py-3 mb-6" role="alert">
+    Certificado a verificar: e6d59d38e924c2a2dbf4e8690a44b766b9597806
+   </div>
+   <form class="flex flex-wrap items-center gap-4 mb-6">
+    <label class="text-xs text-gray-700 w-full sm:w-auto mb-1 sm:mb-0" for="captcha">
+     Transcriba el texto de la imagen
+    </label>
+    <img alt="Imagen captcha con texto distorsionado y líneas verdes" class="h-10 w-40 object-cover border border-gray-300 rounded" height="40" src="https://g3w.uns.edu.ar/guarani3w/captcha" width="160"/>
+    <a class="text-xs text-blue-600 font-semibold hover:underline" href="#">
+     Nueva imagen
+    </a>
+    <input class="border border-gray-300 rounded px-3 py-1 text-sm w-44" id="captcha" name="captcha" type="text"/>
+    <button class="bg-blue-400 hover:bg-blue-500 text-white text-sm font-normal rounded px-4 py-1" type="submit">
+     Verificar
+    </button>
+   </form>
+   <section class="bg-gray-100 rounded border border-gray-300 p-4 max-w-4xl mx-auto">
+    <h2 class="font-semibold text-gray-600 mb-3 text-center">
+     Datos de la Certificación
+    </h2>
+    <table class="w-full text-xs border-collapse border border-gray-300">
+     <tbody>
+      <tr class="border-b border-gray-300">
+       <th class="text-right font-semibold px-3 py-1 border-r border-gray-300 align-top" style="width: 30%;">
+        Tipo de Certificado
+       </th>
+       <td class="px-3 py-1">
+        Certificado de Alumno Regular
+       </td>
+      </tr>
+      <tr class="border-b border-gray-300">
+       <th class="text-right font-semibold px-3 py-1 border-r border-gray-300 align-top">
+        Fecha de Emisión
+       </th>
+       <td class="px-3 py-1">
+        24/03/2025 01:33:24
+       </td>
+      </tr>
+      <tr class="border-b border-gray-300">
+       <th class="text-right font-semibold px-3 py-1 border-r border-gray-300 align-top">
+        Legajo
+       </th>
+       <td class="px-3 py-1">
+        151119
+       </td>
+      </tr>
+      <tr class="border-b border-gray-300">
+       <th class="text-right font-semibold px-3 py-1 border-r border-gray-300 align-top">
+        Apellido y Nombres
+       </th>
+       <td class="px-3 py-1">
+        DE LUCA, DANTE JOAQUIN
+       </td>
+      </tr>
+      <tr class="border-b border-gray-300">
+       <th class="text-right font-semibold px-3 py-1 border-r border-gray-300 align-top">
+        Tipo y Nro. de Documento
+       </th>
+       <td class="px-3 py-1">
+        DNI - 47739450
+       </td>
+      </tr>
+      <tr>
+       <th class="text-right font-semibold px-3 py-1 border-r border-gray-300 align-top">
+        Carreras en condición de
+        <br/>
+        alumno regular
+       </th>
+       <td class="px-3 py-1">
+        (16) INGENIERIA ELECTRONICA
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </section>
+  </main>
+ </body>
+</html>
